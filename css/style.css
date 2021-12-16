@@ -1854,7 +1854,7 @@ img.svg{
 .arlo_tm_contact_wrap .main_input_wrap .wrap textarea:focus{
 	outline: none;
 }
-.arlo_tm_contact_wrap .arlo_tm_button input{
+.arlo_tm_contact_wrap .arlo_tm_button a{
 	text-decoration: none;
     color: #fff;
     background-color: #E3872D;
@@ -1866,7 +1866,7 @@ img.svg{
     position: relative;
     overflow: hidden;
 }
-.arlo_tm_contact_wrap .arlo_tm_button input:before{
+.arlo_tm_contact_wrap .arlo_tm_button a:before{
 	position: absolute;
     content: "";
     top: 0px;
@@ -1878,8 +1878,8 @@ img.svg{
     transition-duration: .6s;
     z-index: 1;
 }
-.arlo_tm_contact_wrap .arlo_tm_button input:hover:before{width: 170%;}
-.arlo_tm_contact_wrap .arlo_tm_button input span{
+.arlo_tm_contact_wrap .arlo_tm_button a:hover:before{width: 170%;}
+.arlo_tm_contact_wrap .arlo_tm_button a span{
 	position: relative;
 	z-index: 2;
 }

@@ -343,6 +343,10 @@ function arlo_tm_contact_form(){
 	});
 }
 
+function submitFunction() {
+	document.getElementById("contact_form").submit();
+}
+
 // -----------------------------------------------------
 // --------------------    OWL CAROUSEL    -------------
 // -----------------------------------------------------
